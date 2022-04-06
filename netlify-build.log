@@ -1,0 +1,511 @@
+9:42:52 PM: Build ready to start
+9:42:54 PM: build-image version: d2c6dbeac570350a387d832f64bc980dc964ad65 (focal)
+9:42:54 PM: build-image tag: v4.8.0
+9:42:54 PM: buildbot version: e552b142336b2b1222a93a4fd4cbed0019c77b46
+9:42:54 PM: Fetching cached dependencies
+9:42:55 PM: Failed to fetch cache, continuing with build
+9:42:55 PM: Starting to prepare the repo for build
+9:42:55 PM: No cached dependencies found. Cloning fresh repo
+9:42:55 PM: git clone https://github.com/lchrios/nextjs-docs-demo
+9:42:55 PM: Preparing Git Reference refs/heads/main
+9:42:55 PM: Parsing package.json dependencies
+9:42:56 PM: Starting build script
+9:42:56 PM: Installing dependencies
+9:42:56 PM: Python version set to 2.7
+9:42:57 PM: v16.14.2 is already installed.
+9:42:57 PM: Now using node v16.14.2 (npm v8.5.0)
+9:42:57 PM: Started restoring cached build plugins
+9:42:57 PM: Finished restoring cached build plugins
+9:42:57 PM: Attempting ruby version 2.7.2, read from environment
+9:42:58 PM: Using ruby version 2.7.2
+9:42:59 PM: Using PHP version 8.0
+9:42:59 PM: Started restoring cached yarn cache
+9:42:59 PM: Finished restoring cached yarn cache
+9:42:59 PM: No yarn workspaces detected
+9:42:59 PM: Started restoring cached node modules
+9:42:59 PM: Finished restoring cached node modules
+9:42:59 PM: Installing NPM modules using Yarn version 1.22.10
+9:43:00 PM: yarn install v1.22.10
+9:43:00 PM: [1/4] Resolving packages...
+9:43:00 PM: [2/4] Fetching packages...
+9:43:07 PM: info @next/swc-android-arm64@12.1.0: The platform "linux" is incompatible with this module.
+9:43:07 PM: info "@next/swc-android-arm64@12.1.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+9:43:07 PM: info @next/swc-android-arm64@12.1.0: The CPU architecture "x64" is incompatible with this module.
+9:43:07 PM: info @next/swc-darwin-arm64@12.1.0: The platform "linux" is incompatible with this module.
+9:43:07 PM: info "@next/swc-darwin-arm64@12.1.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+9:43:07 PM: info @next/swc-darwin-arm64@12.1.0: The CPU architecture "x64" is incompatible with this module.
+9:43:07 PM: info @next/swc-darwin-x64@12.1.0: The platform "linux" is incompatible with this module.
+9:43:07 PM: info "@next/swc-darwin-x64@12.1.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+9:43:07 PM: info @next/swc-linux-arm-gnueabihf@12.1.0: The CPU architecture "x64" is incompatible with this module.
+9:43:07 PM: info "@next/swc-linux-arm-gnueabihf@12.1.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+9:43:07 PM: info @next/swc-linux-arm64-gnu@12.1.0: The CPU architecture "x64" is incompatible with this module.
+9:43:07 PM: info "@next/swc-linux-arm64-gnu@12.1.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+9:43:07 PM: info @next/swc-linux-arm64-musl@12.1.0: The CPU architecture "x64" is incompatible with this module.
+9:43:07 PM: info "@next/swc-linux-arm64-musl@12.1.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+9:43:07 PM: info @next/swc-win32-arm64-msvc@12.1.0: The platform "linux" is incompatible with this module.
+9:43:07 PM: info "@next/swc-win32-arm64-msvc@12.1.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+9:43:07 PM: info @next/swc-win32-arm64-msvc@12.1.0: The CPU architecture "x64" is incompatible with this module.
+9:43:07 PM: info @next/swc-win32-ia32-msvc@12.1.0: The platform "linux" is incompatible with this module.
+9:43:07 PM: info "@next/swc-win32-ia32-msvc@12.1.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+9:43:07 PM: info @next/swc-win32-ia32-msvc@12.1.0: The CPU architecture "x64" is incompatible with this module.
+9:43:07 PM: info @next/swc-win32-x64-msvc@12.1.0: The platform "linux" is incompatible with this module.
+9:43:07 PM: info "@next/swc-win32-x64-msvc@12.1.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+9:43:07 PM: [3/4] Linking dependencies...
+9:43:07 PM: warning " > next@12.1.0" has incorrect peer dependency "react@^17.0.2 || ^18.0.0-0".
+9:43:07 PM: warning " > next@12.1.0" has incorrect peer dependency "react-dom@^17.0.2 || ^18.0.0-0".
+9:43:07 PM: warning "nextra-theme-docs > @mdx-js/react@1.6.16" has incorrect peer dependency "react@^16.13.1".
+9:43:07 PM: warning "nextra-theme-docs > @reach/skip-nav@0.11.2" has incorrect peer dependency "react@^16.8.0".
+9:43:07 PM: warning "nextra-theme-docs > @reach/skip-nav@0.11.2" has incorrect peer dependency "react-dom@^16.8.0".
+9:43:07 PM: warning "nextra-theme-docs > @researchgate/react-intersection-observer@1.3.5" has incorrect peer dependency "react@^16.3.2".
+9:43:07 PM: warning "nextra-theme-docs > @researchgate/react-intersection-observer@1.3.5" has incorrect peer dependency "react-dom@^16.3.2".
+9:43:07 PM: warning "nextra-theme-docs > next-themes@0.0.8" has incorrect peer dependency "next@^9.5.5".
+9:43:07 PM: warning "nextra-theme-docs > next-themes@0.0.8" has incorrect peer dependency "react@^16.13.1".
+9:43:07 PM: warning "nextra-theme-docs > next-themes@0.0.8" has incorrect peer dependency "react-dom@^16.13.1".
+9:43:07 PM: warning "nextra-theme-docs > react-innertext@1.1.5" has unmet peer dependency "@types/react@>=0.0.0 <=99".
+9:43:07 PM: warning "nextra-theme-docs > @reach/skip-nav > @reach/utils@0.11.2" has incorrect peer dependency "react@^16.8.0".
+9:43:07 PM: warning "nextra-theme-docs > @reach/skip-nav > @reach/utils@0.11.2" has incorrect peer dependency "react-dom@^16.8.0".
+9:43:08 PM: [4/4] Building fresh packages...
+9:43:08 PM: Done in 8.60s.
+9:43:08 PM: NPM modules installed using Yarn
+9:43:08 PM: Started restoring cached go cache
+9:43:08 PM: Finished restoring cached go cache
+9:43:08 PM: go version go1.16.5 linux/amd64
+9:43:08 PM: go version go1.16.5 linux/amd64
+9:43:08 PM: Installing missing commands
+9:43:08 PM: Verify run directory
+9:43:10 PM: ​
+9:43:10 PM: ────────────────────────────────────────────────────────────────
+9:43:10 PM:   Netlify Build                                                 
+9:43:10 PM: ────────────────────────────────────────────────────────────────
+9:43:10 PM: ​
+9:43:10 PM: ❯ Version
+9:43:10 PM:   @netlify/build 26.5.2
+9:43:10 PM: ​
+9:43:10 PM: ❯ Flags
+9:43:10 PM:   baseRelDir: true
+9:43:10 PM:   buildId: 624cfe2c85342b42953e518a
+9:43:10 PM:   deployId: 624cfe2c85342b42953e518c
+9:43:10 PM: ​
+9:43:10 PM: ❯ Current directory
+9:43:10 PM:   /opt/build/repo
+9:43:10 PM: ​
+9:43:10 PM: ❯ Config file
+9:43:10 PM:   No config file was defined: using default values.
+9:43:10 PM: ​
+9:43:10 PM: ❯ Context
+9:43:10 PM:   production
+9:43:10 PM: ​
+9:43:10 PM: ❯ Installing plugins
+9:43:10 PM:    - @netlify/plugin-nextjs@4.2.8
+9:43:25 PM: ​
+9:43:25 PM: ❯ Loading plugins
+9:43:25 PM:    - @netlify/plugin-nextjs@4.2.8 from Netlify app
+9:43:26 PM: ​
+9:43:26 PM: ────────────────────────────────────────────────────────────────
+9:43:26 PM:   1. @netlify/plugin-nextjs (onPreBuild event)                  
+9:43:26 PM: ────────────────────────────────────────────────────────────────
+9:43:26 PM: ​
+9:43:26 PM: No Next.js cache to restore.
+9:43:26 PM: Netlify configuration property "build.environment.NEXT_PRIVATE_TARGET" value changed.
+9:43:26 PM: ​
+9:43:26 PM: (@netlify/plugin-nextjs onPreBuild completed in 18ms)
+9:43:26 PM: ​
+9:43:26 PM: ────────────────────────────────────────────────────────────────
+9:43:26 PM:   2. Build command from Netlify app                             
+9:43:26 PM: ────────────────────────────────────────────────────────────────
+9:43:26 PM: ​
+9:43:26 PM: $ next build
+9:43:27 PM: warn  - No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+9:43:27 PM: info  - Checking validity of types...
+9:43:27 PM: warn  - No ESLint configuration detected. Run next lint to begin setup
+9:43:27 PM: info  - Creating an optimized production build...
+9:43:44 PM: info  - Compiled successfully
+9:43:44 PM: info  - Collecting page data...
+9:43:47 PM: info  - Generating static pages (0/15)
+9:43:47 PM: info  - Generating static pages (3/15)
+9:43:47 PM: info  - Generating static pages (7/15)
+9:43:47 PM: info  - Generating static pages (11/15)
+9:43:47 PM: info  - Generating static pages (15/15)
+9:43:47 PM: info  - Finalizing page optimization...
+9:43:48 PM: Page                                       Size     First Load JS
+9:43:48 PM: ┌ ○ /                                      2.48 kB         133 kB
+9:43:48 PM: ├   /_app                                  0 B            70.9 kB
+9:43:48 PM: ├ ○ /404                                   194 B          71.1 kB
+9:43:48 PM: ├ ○ /advanced/code-highlighting            2.19 kB         133 kB
+9:43:48 PM: ├ ○ /features/i18n                         2.52 kB         133 kB
+9:43:48 PM: ├ ○ /features/image                        2.73 kB         133 kB
+9:43:48 PM: ├ ○ /features/mdx                          3.67 kB         134 kB
+9:43:48 PM: ├ ● /features/ssg (ISR: 60 Seconds)        2.46 kB         133 kB
+9:43:48 PM: ├ ○ /features/themes                       1.98 kB         132 kB
+9:43:48 PM: ├ ○ /get-started                           3.4 kB          134 kB
+9:43:48 PM: ├ ○ /themes/blog (307 ms)                  2.85 kB         133 kB
+9:43:48 PM: ├ ○ /themes/docs                           2.66 kB         133 kB
+9:43:48 PM: ├ ○ /themes/docs/bleed                     2.65 kB         133 kB
+9:43:48 PM: ├ ○ /themes/docs/callout                   2.43 kB         133 kB
+9:43:48 PM: └ ○ /themes/docs/configuration (319 ms)    3.54 kB         134 kB
+9:43:48 PM: + First Load JS shared by all              70.9 kB
+9:43:48 PM:   ├ chunks/framework-ff100329a956f214.js   42 kB
+9:43:48 PM:   ├ chunks/main-01df828e572375b9.js        27.6 kB
+9:43:48 PM:   ├ chunks/pages/_app-c9482e1feb19cf8c.js  508 B
+9:43:48 PM:   ├ chunks/webpack-d7b038a63b619762.js     771 B
+9:43:48 PM:   └ css/b2cc816d3551ec97.css               5.17 kB
+9:43:48 PM: ○  (Static)  automatically rendered as static HTML (uses no initial props)
+9:43:48 PM: ●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+9:43:48 PM:    (ISR)     incremental static regeneration (uses revalidate in getStaticProps)
+9:43:48 PM: ​
+9:43:48 PM: (build.command completed in 21.5s)
+9:43:48 PM: ​
+9:43:48 PM: ────────────────────────────────────────────────────────────────
+9:43:48 PM:   3. @netlify/plugin-nextjs (onBuild event)                     
+9:43:48 PM: ────────────────────────────────────────────────────────────────
+9:43:48 PM: ​
+9:43:48 PM: Patching /opt/build/repo/node_modules/next/dist/server/base-server.js
+9:43:48 PM: Done
+9:43:48 PM: Moving static page files to serve from CDN...
+9:43:48 PM: Moved 12 files
+9:43:48 PM: Netlify configuration property "redirects" value changed to [
+9:43:48 PM:   { from: '/_next/static/*', to: '/static/:splat', status: 200 },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/image*',
+9:43:48 PM:     query: { url: ':url', w: ':width', q: ':quality' },
+9:43:48 PM:     to: '/_ipx/w_:width,q_:quality/:url',
+9:43:48 PM:     status: 301
+9:43:48 PM:   },
+9:43:48 PM:   { from: '/_ipx/*', to: '/.netlify/builders/_ipx', status: 200 },
+9:43:48 PM:   { from: '/cache/*', to: '/404.html', status: 404, force: true },
+9:43:48 PM:   { from: '/server/*', to: '/404.html', status: 404, force: true },
+9:43:48 PM:   { from: '/serverless/*', to: '/404.html', status: 404, force: true },
+9:43:48 PM:   { from: '/trace', to: '/404.html', status: 404, force: true },
+9:43:48 PM:   { from: '/traces', to: '/404.html', status: 404, force: true },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/routes-manifest.json',
+9:43:48 PM:     to: '/404.html',
+9:43:48 PM:     status: 404,
+9:43:48 PM:     force: true
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/build-manifest.json',
+9:43:48 PM:     to: '/404.html',
+9:43:48 PM:     status: 404,
+9:43:48 PM:     force: true
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/prerender-manifest.json',
+9:43:48 PM:     to: '/404.html',
+9:43:48 PM:     status: 404,
+9:43:48 PM:     force: true
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/react-loadable-manifest.json',
+9:43:48 PM:     to: '/404.html',
+9:43:48 PM:     status: 404,
+9:43:48 PM:     force: true
+9:43:48 PM:   },
+9:43:48 PM:   { from: '/BUILD_ID', to: '/404.html', status: 404, force: true },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/api',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/api/*',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/android-icon-192x192.png',
+9:43:48 PM:     to: '/android-icon-192x192.png',
+9:43:48 PM:     conditions: { Cookie: [Array] },
+9:43:48 PM:     status: 200
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/apple-icon-180x180.png',
+9:43:48 PM:     to: '/apple-icon-180x180.png',
+9:43:48 PM:     conditions: { Cookie: [Array] },
+9:43:48 PM:     status: 200
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/apple-icon.png',
+9:43:48 PM:     to: '/apple-icon.png',
+9:43:48 PM:     conditions: { Cookie: [Array] },
+9:43:48 PM:     status: 200
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/demo.png',
+9:43:48 PM:     to: '/demo.png',
+9:43:48 PM:     conditions: { Cookie: [Array] },
+9:43:48 PM:     status: 200
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/favicon-16x16.png',
+9:43:48 PM:     to: '/favicon-16x16.png',
+9:43:48 PM:     conditions: { Cookie: [Array] },
+9:43:48 PM:     status: 200
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/favicon-32x32.png',
+9:43:48 PM:     to: '/favicon-32x32.png',
+9:43:48 PM:     conditions: { Cookie: [Array] },
+9:43:48 PM:     status: 200
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/favicon-96x96.png',
+9:43:48 PM:     to: '/favicon-96x96.png',
+9:43:48 PM:     conditions: { Cookie: [Array] },
+9:43:48 PM:     status: 200
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/favicon.ico',
+9:43:48 PM:     to: '/favicon.ico',
+9:43:48 PM:     conditions: { Cookie: [Array] },
+9:43:48 PM:     status: 200
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/ms-icon-144x144.png',
+9:43:48 PM:     to: '/ms-icon-144x144.png',
+9:43:48 PM:     conditions: { Cookie: [Array] },
+9:43:48 PM:     status: 200
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/og.png',
+9:43:48 PM:     to: '/og.png',
+9:43:48 PM:     conditions: { Cookie: [Array] },
+9:43:48 PM:     status: 200
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/*',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     conditions: { Cookie: [Array] },
+9:43:48 PM:     force: true
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/features/ssg.json',
+9:43:48 PM:     to: '/.netlify/builders/___netlify-odb-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: true
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/features/ssg',
+9:43:48 PM:     to: '/.netlify/builders/___netlify-odb-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: true
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/index.json',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/advanced/code-highlighting.json',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/advanced/code-highlighting',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/features/i18n.json',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/features/i18n',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/features/image.json',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/features/image',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/features/mdx.json',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/features/mdx',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/features/themes.json',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/features/themes',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/get-started.json',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/get-started',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/themes/blog.json',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/themes/blog',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/themes/docs.json',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/themes/docs',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:59 PM: Creating deploy upload records
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/themes/docs/bleed.json',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/themes/docs/bleed',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/themes/docs/callout.json',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/themes/docs/callout',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/_next/data/l2ygunk3eAiVzcLKwdU8W/themes/docs/configuration.json',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/themes/docs/configuration',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200,
+9:43:48 PM:     force: false
+9:43:48 PM:   },
+9:43:48 PM:   {
+9:43:48 PM:     from: '/*',
+9:43:48 PM:     to: '/.netlify/functions/___netlify-handler',
+9:43:48 PM:     status: 200
+9:43:48 PM:   }
+9:43:48 PM: ].
+9:43:48 PM: ​
+9:43:48 PM: (@netlify/plugin-nextjs onBuild completed in 65ms)
+9:43:48 PM: ​
+9:43:48 PM: ────────────────────────────────────────────────────────────────
+9:43:48 PM:   4. Functions bundling                                         
+9:43:48 PM: ────────────────────────────────────────────────────────────────
+9:43:48 PM: ​
+9:43:48 PM: Packaging Functions from .netlify/functions-internal directory:
+9:43:48 PM:  - ___netlify-handler/___netlify-handler.js
+9:43:48 PM:  - ___netlify-odb-handler/___netlify-odb-handler.js
+9:43:48 PM:  - _ipx/_ipx.js
+9:43:48 PM: ​
+9:43:58 PM: ​
+9:43:58 PM: (Functions bundling completed in 10.8s)
+9:43:58 PM: ​
+9:43:58 PM: ────────────────────────────────────────────────────────────────
+9:43:58 PM:   5. @netlify/plugin-nextjs (onPostBuild event)                 
+9:43:58 PM: ────────────────────────────────────────────────────────────────
+9:43:58 PM: ​
+9:43:59 PM: Next.js cache saved.
+9:43:59 PM: ​
+9:43:59 PM: (@netlify/plugin-nextjs onPostBuild completed in 81ms)
+9:43:59 PM: ​
+9:43:59 PM: ────────────────────────────────────────────────────────────────
+9:43:59 PM:   6. Deploy site                                                
+9:43:59 PM: ────────────────────────────────────────────────────────────────
+9:43:59 PM: ​
+9:43:59 PM: Starting to deploy site from '.next'
+9:43:59 PM: Creating deploy tree 
+9:43:59 PM: 33 new files to upload
+9:43:59 PM: 3 new functions to upload
+9:44:08 PM: Site deploy was successfully initiated
+9:44:08 PM: ​
+9:44:08 PM: (Deploy site completed in 9.6s)
+9:44:08 PM: ​
+9:44:08 PM: ────────────────────────────────────────────────────────────────
+9:44:08 PM:   Netlify Build Complete                                        
+9:44:08 PM: ────────────────────────────────────────────────────────────────
+9:44:08 PM: ​
+9:44:08 PM: (Netlify Build completed in 58.5s)
+9:44:08 PM: Starting post processing
+9:44:09 PM: Caching artifacts
+9:44:09 PM: Started saving node modules
+9:44:09 PM: Finished saving node modules
+9:44:09 PM: Started saving build plugins
+9:44:09 PM: Finished saving build plugins
+9:44:09 PM: Started saving yarn cache
+9:44:09 PM: Post processing - HTML
+9:44:10 PM: Finished saving yarn cache
+9:44:10 PM: Started saving pip cache
+9:44:10 PM: Finished saving pip cache
+9:44:10 PM: Started saving emacs cask dependencies
+9:44:10 PM: Finished saving emacs cask dependencies
+9:44:10 PM: Started saving maven dependencies
+9:44:10 PM: Finished saving maven dependencies
+9:44:10 PM: Started saving boot dependencies
+9:44:10 PM: Finished saving boot dependencies
+9:44:10 PM: Started saving rust rustup cache
+9:44:10 PM: Finished saving rust rustup cache
+9:44:10 PM: Started saving go dependencies
+9:44:10 PM: Finished saving go dependencies
+9:44:11 PM: Build script success
+9:44:12 PM: Post processing - header rules
+9:44:12 PM: Post processing - redirect rules
+9:44:12 PM: Post processing done
+9:44:15 PM: Site is live ✨
+9:45:15 PM: Finished processing build request in 2m20.999445841s
